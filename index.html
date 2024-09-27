@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botão de Copiar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <button
+        class="copy-btn"
+        data-text="Oi, [nome da indicação]! Tudo bem? 😊
+
+Quero te apresentar a Yelly, perfeita para quem vende muito no parcelado! Com nossa maquininha, você consegue taxas imbatíveis para vendas em 12x. 🌟💳
+
+Aproveite e aumente suas vendas com meu desconto exclusivo de [X%] utilizando meu link e cupom:
+[link de indicação] ✨
+[nome do cupom] 💰"
+        onclick="copyText(this)"
+      >
+        <span class="button-text">COPIAR TEXTO</span>
+      </button>
+    </div>
+    <div>
+      <button
+        class="copy-btn"
+        data-text="Texto para copiar 2"
+        onclick="copyText(this)"
+      >
+        <span class="button-text">COPIAR TEXTO</span>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
